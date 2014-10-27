@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#masthead {
+  height: 15px;
+}
+#masthead .site-title a {
+  display: block;
+  height: 37px;
+  width: 285px;
+  background: url('http://dev.mediacrossing.fr/mediacrossing/wp-content/themes/mediacrossing/images/logo-mediacrossing.png') no-repeat scroll top left transparent;
+}

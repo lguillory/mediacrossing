@@ -1,0 +1,12 @@
+
+AuthUserFile /var/www/vhosts/mediacrossing.fr/vhosts/mediacrossing.fr/dev/mediacrossing/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acces Restreint"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
+
+# BEGIN WordPress
+
+# END WordPress
